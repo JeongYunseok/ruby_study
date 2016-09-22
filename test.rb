@@ -9,4 +9,5 @@ require "nokogiri"
 
 	title_edit = title.split(':')[0]
 	puts "#{x}, #{title_edit}"
+  printf 'aa'
 end
