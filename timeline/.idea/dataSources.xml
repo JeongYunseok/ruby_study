@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="Sqlite (Xerial) - development.sqlite3" uuid="7ad9a463-f6d8-4595-8385-a15f4cf5a2bb">
+    <data-source source="LOCAL" name="Sqlite (Xerial) - development.sqlite3" uuid="b51278f8-632a-4073-9628-c0156fb40055">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:$USER_HOME$/workspace/ruby_study/timeline/db/development.sqlite3</jdbc-url>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/development.sqlite3</jdbc-url>
     </data-source>
   </component>
 </project>
