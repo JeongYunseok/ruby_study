@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
-	get 'wall/write'
-	get 'wall/posts'
-	post 'wall/write_complete'
-	get 'wall/edit/:id' => 'wall#edit'
+	get "wall/write"
+	post "wall/write_complete"
+	get "wall/posts"
+	get "wall/edit/:id" => 'wall#edit'
+	post "wall/edit_complete"
+	get "wall/delete/:id" => 'wall#delete'
+	post "wall/delete_complete"
 end
